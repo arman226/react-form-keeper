@@ -1,0 +1,26 @@
+{
+  "name": "react-form-keeper",
+  "version": "1.0.1",
+  "description": "Validate your input fields using this NPM Package. This Library is very useful for any React JS developer who wants to make the validation of his/her forms easier!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: No Test Specified\" && exist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arman226/react-form-keeper.git"
+  },
+  "keywords": [
+    "form-validator"
+  ],
+  "author": "Armando I. Bibay Jr.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arman226/react-form-keeper/issues"
+  },
+  "homepage": "https://github.com/arman226/react-form-keeper#readme",
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
