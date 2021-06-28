@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import validate from 'hooks/useValidator'
 
 function App() {
+
+  const fields = {
+    name: {
+      isRequired: true,
+    },
+    address: {
+      isRequired:false
+    }
+  }
+  const {state, updateFieldValue, isDisabled} =validate(fields)
+
+ 
+const handleButtonClick =(e)=>{
+
+}
+
+
+const handleOnChange=(e)=>{
+  const {id, value} = e.target
+  updateFieldValue(id, value)
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <input id="name" type="text" onChange={handleOnChange} /> <br/>
+        <input id="address" type="text" onChange={handleOnChange} /><br/>
+        <button type='button' title="check" onClick={handleButtonClick}>{isDisabled?'disabled':'Congrats'}</button>
+      </form>
+      {JSON.stringify(state)}
+
     </div>
   );
 }

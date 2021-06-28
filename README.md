@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# React Form-Keeper
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Validate your input fields using this NPM Package. This Library is very useful for any React JS developer who wants to make the validation of his/her forms easier!
 
 ## Available Scripts
 
