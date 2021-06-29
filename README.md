@@ -78,7 +78,7 @@ If you want to help me improve this library, please feel free to submit a pull r
 
 ###  LICENSE 
 
-This project is under [MIT License](https://github.com/arman226/react-form-keeper/blob/master/LICENSE)
+This project is licensed under the [MIT License](https://github.com/arman226/react-form-keeper/blob/master/LICENSE)
 
 
 
