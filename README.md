@@ -37,7 +37,7 @@ const fields = {
 Destructure the hook properties as you create an instance of the validator
 
 ```js
-const { state, updateFieldValue, isDisabled } = validate(fields)
+const { state, updateFieldValue, isDisabled } = validator(fields)
 
 ```
 
