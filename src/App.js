@@ -1,5 +1,5 @@
 import "./App.css";
-import validate, { isEmailAddress, isMobileNumber } from "hooks";
+import validate, { isEmailAddress, isMobileNumber } from "react-form-keeper";
 
 function App() {
   const fields = {
