@@ -16,7 +16,7 @@ import validator, {isEmailAddress, isMobileNumber} from 'react-form-keeper'
 ```
 
 
-After that you need to create an object that will represent each field from your form that you want to validate. Your object should look like this:
+After that, you need to create an object that will handle each field from your form that you want to validate. Your object should look like this:
 
 ``` js
 const fields = {
